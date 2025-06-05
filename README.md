@@ -40,7 +40,7 @@ This is a Next.js-based admin dashboard application with integrated features for
 
    ```bash
    git clone <repository-url>
-   cd ar-admin-dashboard
+   cd admin-dashboard-publicver
    ```
 
 2. **Install dependencies:**
@@ -122,16 +122,6 @@ device-models/
     ├── Server-1U-82724cda-b2a0-...
     ├── Server-27db2fc0-1a00-43b...
     └── Server-2U-2e6e5679-07d5...
-```
-
-## Environment Variables
-
-Create a `.env.local` file in the root directory (optional, if you prefer environment variables over direct configuration):
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url_here
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key_here
 ```
 
 ## Usage
